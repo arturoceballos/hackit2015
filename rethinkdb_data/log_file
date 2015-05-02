@@ -13,3 +13,15 @@
 2015-05-02T12:10:00.824667000 0.690091s notice: Listening on addresses: 127.0.0.1, ::1
 2015-05-02T12:10:00.824670000 0.690095s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
 2015-05-02T12:10:00.824677000 0.690101s notice: Server ready, "Vanessas_MacBook_Pro_local_uud" 42d3e7e8-928a-4dad-a9ff-053e478dad57
+2015-05-02T12:35:18.895569000 0.449755s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-02T12:35:18.901586000 0.455769s notice: Running on Darwin 14.1.0 x86_64
+2015-05-02T12:35:18.901619000 0.455801s notice: Loading data from directory /Users/Vanessa/Desktop/vanie3.github.io/hackit2015/rethinkdb_data
+2015-05-02T12:35:18.940239000 0.494488s info: Automatically using cache size of 100 MB
+2015-05-02T12:35:18.940246000 0.494495s warn: Cache size does not leave much memory for server and query overhead (available memory: 335 MB).
+2015-05-02T12:35:18.940250000 0.494499s warn: Cache size is very low and may impact performance.
+2015-05-02T12:35:18.941061000 0.495310s notice: Listening for intracluster connections on port 29015
+2015-05-02T12:35:18.942205000 0.496454s notice: Listening for client driver connections on port 28015
+2015-05-02T12:35:18.942264000 0.496513s notice: Listening for administrative HTTP connections on port 8080
+2015-05-02T12:35:18.942270000 0.496519s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-02T12:35:18.942273000 0.496522s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-02T12:35:18.942275000 0.496524s notice: Server ready, "Vanessas_MacBook_Pro_local_uud" 42d3e7e8-928a-4dad-a9ff-053e478dad57
