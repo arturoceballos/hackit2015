@@ -148,7 +148,7 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0.5);
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
