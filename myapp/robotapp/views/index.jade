@@ -1,0 +1,165 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+
+  body#page-top
+    nav#mainNav.navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.page-scroll(href='#page-top') Non-profit Robotics
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a.page-scroll(href='#specs') Specs
+            li
+              a.page-scroll(href='#about') About
+            li
+              a.page-scroll(href='#scholarship') Scholarship
+            li
+              a.page-scroll(href='#gallery') Gallery
+            li
+              a.page-scroll(href='#contact') Contact
+            li
+              a.page-scroll(href='#resources') Resources
+        // /.navbar-collapse
+      // /.container-fluid
+    header.hero
+      .header-content
+        h1 Non-Profit Robotics
+      // <a href="#parts">
+      // <i class="fa fa-4x fa-arrow-down"></i>
+      // </a>
+    header#specs.images
+      // <div class="row">
+      // <img src="img/arduino2.png" alt=""/>
+      // </div>
+      // <div class="row">
+      // <img src="img/arm2.png" alt=""/>
+      // </div>
+      // <div class="row">
+      // <img src="img/base2.png" alt=""/>
+      // </div>
+      // <div class="row">
+      // <img src="img/eyes2.png" alt=""/>
+      // </div>
+      .row
+        img(src='img/parts.png', style='width: 100%;')
+    section#about.bg-primary
+      .container
+        .row
+          .col-md-12.text-center
+            h2.section-heading WHY?
+            hr.light
+          .col-lg-4.col-md-6.text-center
+            .service-box
+              i.fa.fa-4x.fa-graduation-cap.wow.bounceIn.text-light
+              h3 Knowledge
+              p.text-faded
+                | We’re exposing people of all ages to the wonders of technology by providing the resources to rebuild some of our cool, useful, and innovative products. All of our code is open source all the time so you can take a look at how we did it, take it apart, and make it your own.
+          .col-lg-4.col-md-6.text-center
+            .service-box
+              i.fa.fa-4x.fa-code.wow.bounceIn.text-light(data-wow-delay='.1s')
+              h3 Scholarships
+              p.text-faded
+                | Aren’t interested in building anything? Help somebody take the first steps of their journey to an amazing career. You get an awesome robot and the profits go towards providing educational and occupational opportunities to some very deserving people.
+          .col-lg-4.col-md-6.text-center
+            .service-box
+              i.fa.fa-4x.fa-wrench.wow.bounceIn.text-light(data-wow-delay='.1s')
+              h3 WTF ?!
+              p.text-faded
+                | Last but not least, we’re engineering fun, creative, and helpful products that help people in many ways both small and large. By doing so we get to test our skills, build some badass stuff, and share what we love to do with you.
+    section#scholarship
+      .container
+        .row
+          .col-lg-12.text-center
+            h2.section-heading Want a Scholarship?
+            hr.primary
+            p
+              | We don't care about who you are, where you come from, or what grade you got in your P.E.
+              | class. If you're interested in pursuing a career in the technology industry, we're here to
+              | help whether it's building websites, creating mobile apps, building robots, or anything else
+              | you can think of! All you have to do is show us why you deserve it. Build a robot, code
+              | some cool shit and send us your github repo, make a video explaining why we should throw fat
+              | stacks at you and your future, etc. Whatever it is you do get creative and have fun with it!
+    section#gallery.no-padding
+      .container-fluid
+        .row.no-gutter
+          .col-lg-4.col-sm-6
+            a.portfolio-box(href='#')
+              img.img-responsive(src='img/jv.JPG', alt='')
+          .col-lg-4.col-sm-6
+            a.portfolio-box(href='#')
+              img.img-responsive(src='img/robot.JPG', alt='')
+          .col-lg-4.col-sm-6
+            a.portfolio-box(href='#')
+              img.img-responsive(src='img/DSC_0012.JPG', alt='')
+          .col-lg-4.col-sm-6
+            a.portfolio-box(href='#')
+              img.img-responsive(src='img/aj_closeup.JPG', alt='')
+          .col-lg-4.col-sm-6
+            a.portfolio-box(href='#')
+              img.img-responsive(src='img/v_blur.JPG', alt='')
+          .col-lg-4.col-sm-6
+            a.portfolio-box(href='#')
+              img.img-responsive(src='img/sensors.JPG', alt='')
+    section#contact
+      .container
+        .row
+          .col-lg-8.col-lg-offset-2.text-center
+            h2.section-heading Let's Get In Touch!
+            hr.primary
+            p
+              | Want to know more about our awesome scholarships? Fill out the contact form below and we will get back to you as soon as possible!
+          form.col-md-8.col-md-offset-2
+            .form-group
+              label(for='first') First Name:
+              input#first.form-control(type='fname', placeholder='Enter your first name')
+            .form-group
+              label(for='last') Last Name:
+              input#last.form-control(type='lname', placeholder='Enter your last name')
+            .form-group
+              label(for='email') Email address:
+              input#email.form-control(type='email', placeholder='Enter email')
+            .form-group
+              label(for='message') Message:
+              textarea#message.form-control(rows='5', placeholder='Enter you message')
+              // <input type="textarea" class="form-control" id="message" placeholder="Enter first & last name">
+            button.btn.btn-default(type='submit') Submit
+    section#resources.bg-primary
+      .container
+        .row
+          .col-lg-10.col-lg-offset-1.text-center
+            h2.section-heading Resources
+            hr.light
+            p
+              | Wanna start your first project but don't know where to begin? We'll do you a solid and let you
+              | take a peek at our code. Go through the links to see how we did it, make it your own, and make it better! If this were MTV you'd be Xzibit and we want YOU to pimp our rides!
+            .row
+              img(src='img/arduino2.png', alt='')
+              h3 Super Megatron Desk Lamp
+              p
+                | Take a look at our
+                a(href='https://github.com/sammyboy45467/hackit', target='_blank') source code
+                |  and follow this
+                a(href='#', target='_blank') step by step instruction
+                |  to make this project yourself!
+    // jQuery
+    script(src='js/jquery.js')
+    // Bootstrap Core JavaScript
+    script(src='js/bootstrap.min.js')
+    // Plugin JavaScript
+    script(src='js/jquery.easing.min.js')
+    script(src='js/jquery.fittext.js')
+    script(src='js/wow.min.js')
+    // Custom Theme JavaScript
+    script(src='js/creative.js')
