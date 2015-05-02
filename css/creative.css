@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #3a57ea;
+    color: #222;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #ffffff;
 }
 
 h1,
@@ -148,17 +148,18 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: #ffffff;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
         color: #3a57ea;
+        text-decoration: none;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #222;
     }
 
     .navbar-default.affix .nav > li>a,
