@@ -17,6 +17,7 @@
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
@@ -48,12 +49,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Non-profit Robotics</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#specs">Specs</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
@@ -76,12 +80,16 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
+    <header class="hero">
         <div class="header-content">
+            <h1>Non-Profit Robotics</h1>
         </div>
+        <!--<a href="#parts">-->
+            <!--<i class="fa fa-4x fa-arrow-down"></i>-->
+        <!--</a>-->
     </header>
 
-    <header class="images">
+    <header class="images" id="specs">
         <!--<div class="row">-->
             <!--<img src="img/arduino2.png" alt=""/>-->
         <!--</div>-->
@@ -102,16 +110,11 @@
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center">
+                <div class="col-md-12 text-center">
                     <h2 class="section-heading">WHY?</h2>
                     <hr class="light">
-                    <p class="text-faded">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum itaque odio sed velit? Asperiores dolore ea eveniet hic illo in ipsa maiores odio pariatur provident quidem, similique sunt voluptatum!</p>
-                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
-                </div>
-                <div class="col-md-6 text-center">
-                    <h2 class="section-heading">HOW?</h2>
-                    <hr class="light">
-                    <p class="text-faded">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur deleniti ea illum libero mollitia nesciunt nihil nisi praesentium quis repellendus? Alias autem explicabo maxime neque non pariatur possimus quos soluta!</p>
+                    <p class="text-faded">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum itaque odio sed velit? Asperiores dolore ea eveniet hic illo in ipsa maiores odio pariatur provident quidem, similique sunt voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, eius, fugit. Beatae debitis eius laboriosam minus officia sed voluptatem. Commodi dicta ea error inventore nam nesciunt odit, quo repellendus rerum?</p>
+                    <p class="text-faded">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, accusantium architecto blanditiis consectetur cumque deserunt dolor dolores dolorum modi molestias nemo omnis porro quam sapiente similique sunt tempore veniam voluptatem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate delectus dicta enim placeat quaerat quam similique voluptate. Accusamus amet assumenda deleniti, ex labore laboriosam obcaecati optio porro quaerat similique velit.</p>
                     <a href="#" class="btn btn-default btn-xl">Get Started!</a>
                 </div>
             </div>
@@ -259,18 +262,41 @@
                     <hr class="primary">
                     <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                <form class="col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input type="name" class="form-control" id="name" placeholder="Enter first & last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message: </label>
+                        <textarea class="form-control" rows="5" id="message" placeholder="Enter you message"></textarea>
+                        <!--<input type="textarea" class="form-control" id="message" placeholder="Enter first & last name">-->
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<<<<<<< HEAD
+=======
+    <section id="resources" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Resources</h2>
+                    <hr class="light">
+                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
                 </div>
             </div>
         </div>
     </section>
 
+>>>>>>> a5ad7859e58d3daece54a4745e81fe8f981f6600
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
