@@ -25,15 +25,16 @@ hr.light {
 }
 
 a {
-    color: #3a57ea;
+    color: #ffffff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #222;
 }
 
 h1,
@@ -148,7 +149,7 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: #ffffff;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
