@@ -1,0 +1,27 @@
+2015-05-02T12:03:52.852527000 0.626961s notice: Recursively removing directory /Users/arturoceballos/projects/hackit2015/rethinkdb_data/tmp
+2015-05-02T12:03:52.854263000 0.628701s notice: Initializing directory /Users/arturoceballos/projects/hackit2015/rethinkdb_data
+2015-05-02T12:03:52.854409000 0.628841s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/arturoceballos/projects/hackit2015/rethinkdb_data' did not already exist or is empty.)
+2015-05-02T12:03:52.854560000 0.628992s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-02T12:03:52.874820000 0.649254s notice: Running on Darwin 14.3.0 x86_64
+2015-05-02T12:03:52.874860000 0.649292s notice: Loading data from directory /Users/arturoceballos/projects/hackit2015/rethinkdb_data
+2015-05-02T12:03:53.008965000 0.783397s info: Automatically using cache size of 100 MB
+2015-05-02T12:03:53.008974000 0.783406s warn: Cache size does not leave much memory for server and query overhead (available memory: 244 MB).
+2015-05-02T12:03:53.008979000 0.783411s warn: Cache size is very low and may impact performance.
+2015-05-02T12:03:53.011369000 0.785801s notice: Listening for intracluster connections on port 29015
+2015-05-02T12:03:53.012767000 0.787199s notice: Listening for client driver connections on port 28015
+2015-05-02T12:03:53.012833000 0.787264s notice: Listening for administrative HTTP connections on port 8080
+2015-05-02T12:03:53.012839000 0.787270s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-02T12:03:53.012842000 0.787273s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-02T12:03:53.012845000 0.787277s notice: Server ready, "Arturos_MacBook_Pro_local_985" 44ca0f5e-d844-432c-91e0-9122993cddbd
+2015-05-02T12:34:03.910150000 0.005995s notice: Running rethinkdb 2.0.1 (CLANG 4.2 (clang-425.0.28))...
+2015-05-02T12:34:03.916650000 0.012492s notice: Running on Darwin 14.3.0 x86_64
+2015-05-02T12:34:03.916722000 0.012563s notice: Loading data from directory /Users/arturoceballos/projects/hackit2015/rethinkdb_data
+2015-05-02T12:34:03.961161000 0.057002s info: Automatically using cache size of 100 MB
+2015-05-02T12:34:03.961169000 0.057010s warn: Cache size is larger than available memory.
+2015-05-02T12:34:03.961173000 0.057014s warn: Cache size is very low and may impact performance.
+2015-05-02T12:34:03.961747000 0.057588s notice: Listening for intracluster connections on port 29015
+2015-05-02T12:34:03.962357000 0.058198s notice: Listening for client driver connections on port 28015
+2015-05-02T12:34:03.962422000 0.058263s notice: Listening for administrative HTTP connections on port 8080
+2015-05-02T12:34:03.962426000 0.058267s notice: Listening on addresses: 127.0.0.1, ::1
+2015-05-02T12:34:03.962429000 0.058270s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-05-02T12:34:03.962431000 0.058272s notice: Server ready, "Arturos_MacBook_Pro_local_985" 44ca0f5e-d844-432c-91e0-9122993cddbd
