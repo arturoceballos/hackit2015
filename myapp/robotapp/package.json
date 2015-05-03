@@ -12,6 +12,7 @@
     "express": "~4.12.2",
     "jade": "~1.9.2",
     "morgan": "~1.5.1",
+    "rethinkdb": "^1.16.2.r",
     "serve-favicon": "~2.2.0"
   }
 }

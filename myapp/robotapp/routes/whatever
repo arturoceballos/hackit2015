@@ -1,0 +1,1 @@
+ssh -N compose@aws-us-east-1-portal.4.dblayer.com -p 10039 -L 127.0.0.1:28015:10.23.248.2:28015
